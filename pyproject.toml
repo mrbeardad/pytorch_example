@@ -1,0 +1,9 @@
+[tool.pylint.typecheck]
+generated-members='numpy.*, torch.*'
+
+[tool.flake8]
+max-line-length = 99
+
+[tool.black]
+line-length = 99
+
